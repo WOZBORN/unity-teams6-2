@@ -51,6 +51,10 @@ public class PlayerController : MonoBehaviour
         {
             educationText3.SetActive(true);
         }
+        if (collision.CompareTag("EducationTextsOff"))
+        {
+            educationText3.SetActive(false);
+        }
     }
     private void Start()
     {
